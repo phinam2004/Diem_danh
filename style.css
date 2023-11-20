@@ -1,0 +1,59 @@
+/* CSS cho giao diện */
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .attendance-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .attendance-list li {
+    margin-bottom: 10px;
+  }
+  
+  .attendance-list li label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+  }
+  
+  .attendance-list li input[type="text"] {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .attendance-list li button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .attendance-list li button:hover {
+    background-color: #45a049;
+  }
+  
+  .attendance-list li span {
+    display: none;
+    color: red;
+    font-size: 12px;
+  }
